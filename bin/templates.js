@@ -2,7 +2,7 @@
 module.exports = [
     {
         name: 'mobile-vue3',
-        value: 'https://gitlab.15166.com/sunyan/mobile-template.git'
+        value: 'https://github.com:sunny-kobe/mobile-template'
     },
     {
         name: 'pc-vue3',

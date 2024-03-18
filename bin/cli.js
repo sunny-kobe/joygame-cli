@@ -31,7 +31,7 @@ program.command('create').description('创建模板').action(async () => {
 
     // 获取目标文件夹
     const dest = path.join(process.cwd(), name)
-    downloadGitRepo('direct:' + template, dest, (err) => {
+    downloadGitRepo(template, dest, (err) => {
         if (err) {
             console.log('创建模版失败', err)
         } else {
