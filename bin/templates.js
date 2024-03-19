@@ -6,10 +6,15 @@ module.exports = [
     },
     {
         name: 'pc-vue3',
-        value: 'https://gitlab.15166.com:sunyan/mobile-template.git'
+        value: 'https://github.com:sunny-kobe/pc-template'
     },
-    {
-        name: 'sdk-vue3',
-        value: 'https://gitlab.15166.com:sunyan/mobile-template.git'
-    }
+
+    // {
+    //     name: 'mobile-vue3-gitlab',
+    //     value: 'https://gitlab.15166.com:sunyan/mobile-template.git'
+    // },
+    // {
+    //     name: 'pc-vue3',
+    //     value: 'https://gitlab.15166.com/sunyan/pc_template.git'
+    // },
 ]

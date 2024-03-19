@@ -27,7 +27,6 @@ program
     let project = templates.find(template => template.name === options.template)
     // 2. 如果匹配到模版就赋值，没有匹配到就是undefined
     let projectTemplate = project ? project.value : undefined
-    console.log('命令行参数：', projectName, projectTemplate)
 
     if (!projectName) {
       const { name } = await inquirer.prompt({
